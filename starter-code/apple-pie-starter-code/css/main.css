@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  background-image: url("../images/apple-pie.jpg");
+}
+
+h1 {
+  line-height: 600px;
+  margin-top: 0;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 300;
+  font-size: 100px;
+}
