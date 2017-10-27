@@ -12,6 +12,48 @@ h1 {
   text-align: center;
   text-transform: capitalize;
   color: white;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 100px;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.header image {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+ul li::before {
+  content: '\2012';
+  position: absolute;
+  margin-left: -20px;
+}
+
+.intro img {
+  margin: 2em auto;
+  display: block;
+  width: 35%;
+}
+
+.intro p {
+  font-size: 2em;
+  font-weight: 100;
+  padding: 0 4em;
+}
+
+.ingredients, .directions {
+  width: 80%;
+  margin: 0 auto;
+  border-top: 1px solid #000;
+  padding-top: 2em;
 }
